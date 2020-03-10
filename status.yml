@@ -1,0 +1,105 @@
+services:
+  - name: GitHub
+    url: https://www.githubstatus.com
+    provider: self
+
+  - name: Digital Ocean
+    url: https://status.digitalocean.com/
+    provider: self
+
+  - name: Heroku
+    url: https://status.heroku.com/ #https://status.heroku.com/api/v3/current-status
+    provider: self
+
+  - name: Slack
+    url: https://status.slack.com/
+    provider: self
+
+  - name: Google Cloud Platform
+    url: https://status.cloud.google.com/
+    provider: self
+
+  - name: Beanstalk
+    url: https://status.beanstalkapp.com/
+    provider: self
+
+  - name: Netflix
+    url: https://help.netflix.com/en/is-netflix-down
+    provider: self
+
+  - name: Amazon AWS
+    url: https://status.aws.amazon.com/ # https://status.aws.amazon.com/data.json
+    providder: self
+
+  - name: Yarn
+    url: https://status.yarnpkg.com/
+    provider: cachet
+
+  - name: Zoom
+    url: https://status.zoom.us
+    provider: statuspage
+
+  - name: Trello
+    url: https://trello.status.atlassian.com
+    provider: statuspage
+
+  - name: Atlassian Statuspage
+    url: https://metastatuspage.com/
+    provider: statuspage
+
+  - name: RubyGems
+    url: https://status.rubygems.org/
+    provider: statuspage
+
+  - name: Rollbar
+    url: https://status.rollbar.com/
+    provider: statuspage
+
+  - name: NPM
+    url: https://status.npmjs.org/
+    provider: statuspage
+
+  - name: Figma
+    url: https://status.figma.com/
+    provider: statuspage
+
+  - name: Dropbox
+    url: https://status.dropbox.com/
+    provider: statuspage
+
+  - name: Code Climate
+    url: https://status.codeclimate.com/
+    provider: statuspage
+
+  - name: Cloudflare
+    url: https://www.cloudflarestatus.com/
+    provider: statuspage
+
+  - name: CircleCI
+    url: https://status.circleci.com/
+    provider: statuspage
+
+  - name: Bitbucket
+    url: https://bitbucket.status.atlassian.com/
+    provider: statuspage
+
+  - name: GitLab
+    url: https://status.gitlab.com/
+    provider: statusio
+
+  - name: Docker
+    url: https://status.docker.com/
+    provider: statusio
+
+  - name: MailChimp
+    url: https://status.mailchimp.com/
+    provider: statuscake
+
+  - name: PlayStation
+    url: https://status.playstation.com/pt-br/
+    provider: self
+
+  - name: Codacy
+    url: https://status.codacy.com/
+    provider: lambstatus
+
